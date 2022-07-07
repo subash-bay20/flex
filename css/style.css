@@ -1,0 +1,52 @@
+
+@media(max-width:600px){
+
+.container, .container-2{
+    flex-direction: column;
+    margin: 10px;
+    /*&align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    */
+}
+}
+.container, .container-2{
+    display: flex;
+    margin: 10px;
+    /*&align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    */
+    
+    
+}
+.container div, .container-2 div {
+ border: 2px solid black; 
+ padding: 20px; 
+ text-align: center;
+ margin: 5px;
+}
+.box1{
+   flex:1;
+    background-color: aqua;
+   
+}.box2{
+    flex:2;
+   background-color: black;
+   color: aliceblue;
+    
+}
+.box3{
+    flex:2;
+    background-color: blue;
+    color: white;
+  
+    align-items: flex-start;
+}
+.box4{
+    flex:1;
+    background-color: chartreuse;
+    
+}
